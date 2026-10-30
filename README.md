@@ -118,7 +118,7 @@ Assim, o Arduino realiza a leitura do sinal, organiza o valor e envia os dados p
 
 ## 3.2. Aquisição
 
-O potenciômetro é ligado a uma entrada analógica do Arduino Uno. Seu terminal é conectado ao pino `A0`, enquanto os outros terminais são conectados a alimentação e ao GND.
+O potenciômetro é ligado a uma entrada analógica do Arduino Uno. Seu terminal principal do potenciômetro é conectado ao pino `A0`, enquanto os outros terminais são conectados a alimentação e ao GND.
 
 Ao girar o potenciômetro, a tensão aplicada à entrada analógica varia entre 0 e 5 V. O conversor analógico-digital de 10 bits do Arduino transforma essa tensão em um valor entre 0 e 1023.
 
