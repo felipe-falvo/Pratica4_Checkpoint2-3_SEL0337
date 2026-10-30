@@ -267,6 +267,8 @@ O programa usa dois LEDs para indicar o resultado:
 
 A cada leitura, os dois leds são inicialmente apagados. Em seguida, o ID obtido é comparado com o identificador autorizado, onde se os valores forem iguais, o terminal apresenta a mensagem de liberação e o led verde é aceso. Caso contrário, o terminal mostra que o acesso foi negado e o led vermelho é ligado.
 
+**Observação:** No vídeo da demonstração, aparece o texto `12345678` gravado na tag. Porém, a variável foi atualizado para os números USP da dupla (`15004433/15651561`), conforme pedido no PDF da atividade.
+
 ## 4.4. Arquivos do checkpoint
 
 - [`gravacao.py`](Pratica4_checkpoint_3/gravacao.py): grava um texto na tag RFID.
