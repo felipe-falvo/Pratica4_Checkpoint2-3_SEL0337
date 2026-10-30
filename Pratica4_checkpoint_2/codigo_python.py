@@ -8,7 +8,7 @@ endereco = 0x08 #endereço
 while True:
     try:
         #lendo 2 bytes do endereço
-        dados =bus.read_i2c_block_data(endereco, 0, 2)
+        dados =barramento.read_i2c_block_data(endereco, 0, 2)
         
         
         byte_alto =dados[0] # byte mais significativo
